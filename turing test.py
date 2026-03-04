@@ -1,12 +1,12 @@
 def turing_test():
     """
-    A simple simulation of a Turing Test interaction.
-    The program asks the user questions and provides responses.
+    A very simple simulation of a Turing Test interaction.
+    The program asks the user questions and provides responses for the same.
     """
     print("--- Turing Test Simulation ---")
     print("Initiating conversation... Type 'quit' to end.\n")
 
-    # A simple dictionary-based response system
+    # A simple dictionary-based response system used to simplify the process
     responses = {
         "hello": "Hello! How are you feeling today?",
         "how are you": "I am functioning within normal parameters. And you?",
@@ -22,7 +22,7 @@ def turing_test():
             print("Simulation: Goodbye.")
             break
 
-        # Check for keywords in the user input
+        # Checking for keywords in the user input given
         found = False
         for key in responses:
             if key in user_input:
