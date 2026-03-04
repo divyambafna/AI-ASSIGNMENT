@@ -1,7 +1,6 @@
 def calculate_aqi(concentration):
     """
-    Calculates a simplified Air Quality Index based on PM2.5 concentration.
-    Minor changes: Refined the breakpoint logic to follow standard categories.
+    Calculates a simplified Air Quality Index based on PM2.5 concentration present in the air baser on the data from sensors.
     """
     if 0 <= concentration <= 12:
         return "Good", "Green"
